@@ -10934,7 +10934,7 @@ form .row:first-child .floating-label-form-group {
   color: rgb(24, 21, 21);
 }
 
-.copyright {
-  background: linear-gradient(to right, #012e69, #33AEFF);
-  ;
+#copyright {
+  background-color: rgb(32, 31, 31);
+  color: #fff;
 }
