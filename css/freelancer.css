@@ -2631,7 +2631,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #e4edf8;
+  background-color: #eaf1f8;
   border-color: #f3f5f7;
 }
 
@@ -10395,7 +10395,10 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #080808 !important;
+  color: #f8f8f8 !important;
+}
+.text-title {
+  color: #0c0c0c !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10604,15 +10607,38 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-flex-align: center;
   align-items: center;
 }
+.divider-custom-hove {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(248, 242, 242);
   border-radius: 1rem;
   border-color: #2c3e50 !important;
 }
+
+.divider-custom-hove .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: rgb(10, 10, 10);
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+
 
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10623,7 +10649,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom .divider-custom-icon {
-  color: rgb(5, 5, 5) !important;
+  color: rgb(247, 244, 244) !important;
   font-size: 2rem;
 }
 
@@ -10931,7 +10957,7 @@ form .row:first-child .floating-label-form-group {
 
 
   ;
-  color: rgb(24, 21, 21);
+  color: rgb(248, 244, 244);
 }
 
 #copyright {
@@ -10944,4 +10970,8 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
   letter-spacing: .3rem;
   box-sizing: border-box;
+}
+
+#port1{
+  color: #000;
 }
