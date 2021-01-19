@@ -10938,3 +10938,10 @@ form .row:first-child .floating-label-form-group {
   background-color: rgb(32, 31, 31);
   color: #fff;
 }
+
+.half-size{
+  font-size: 0.6rem;
+  color: #fff;
+  letter-spacing: .3rem;
+  box-sizing: border-box;
+}
