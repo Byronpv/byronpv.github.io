@@ -497,7 +497,7 @@ mark,
 .img-fluid {
   margin: auto;
   display: block;
-  max-width: 100%;
+  max-width:60%;
   height: auto;
 }
 
