@@ -277,7 +277,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-title text-uppercase mb-0">Log Cabin</h2>
+                <h2 class="portfolio-modal-title text-title text-uppercase mb-0">Earthquake Monitor</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom-hove" >
                   <div class="divider-custom-line"></div>
@@ -286,10 +286,64 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                              
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Earthquaker es una pequeña aplicación de demostración basada en las 
+                  modernas pilas de tecnología de aplicaciones Android y la arquitectura MVVM. 
+                  Este proyecto es para centrarse especialmente en el consumo de la api <em><b>Earthquake USGS</b></em>,
+                   y también la obtención y persistencia de datos por medio de la librería Room; todo a través del patrón <em>Repository</em>. 
+                   Adicionalmente se hace uso de las métricas de diseño de Material Design y la librería externa Lottie para implementar animaciones</p>
+
+                <!-- Portfolio Modal - Image -->
+                <img src="img/portfolio/splashscreen.gif" width="250" height="500" alt="Funny image"> 
+                <img src="img/portfolio/vista.gif" width="250" height="500" alt="Funny image"> 
+                <img src="img/portfolio/vistaDark.gif" width="250" height="500" alt="Funny image"> 
+                <br><br>
+
+                <div class="information">
+                <ul  >
+                  <li>Nivel mínimo de SDK 21</li>
+                  <li>Basado en Kotlin, Coroutines</li>
+                </ul>
+                <ul>
+                  <li><b>jetPack</b>
+                    <ul>
+                      <li>LiveData - notificar los datos de la capa de dominio a las vistas.</li>
+                      <li>Lifecycle - disponer de los datos de observación cuando el estado del ciclo de vida cambia.</li>
+                      <li>ViewModel - soporte de datos relacionados con la UI, consciente del ciclo de vida..</li>
+                      <li>Room Persistence - construir una base de datos utilizando la capa abstracta.</li>
+
+                    </ul>
+                  </li>
+                  <li><b>Arquitectura</b>
+                    <ul>
+                      <li>Arquitectura MVVM (View - DataBinding - ViewModel - Model)</li>
+                      <li>Retrofit2 - API REST.</li>
+                      <li>Moshi - Una moderna biblioteca JSON para Kotlin y Java.</li>
+                      <li>Patrón de repositorio</li>
+
+                    </ul>
+                  </li>
+                  <li><b>Material Components - Material design components</b>
+                    <ul>
+                      <li>CardView</li>
+                      <li>Lottie</li>
+                      <li>RecyclerView</li>
+
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+                <img class="img-fluid rounded mb-5" src="img/portfolio/summary.png"  width="400" height="600" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/kotlin.png"  width="400" height="600" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/jetpack.png"  width="400" height="600" alt="">
+                <div class="col-lg-4-1 mb-5 mb-lg-0">
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Byronpv">
+                   <i class="fab fa-fw fa-github"></i>
+                 </a>
+               </div>
+               <br>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
